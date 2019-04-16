@@ -10,10 +10,10 @@ function destructivelyAddElementToBeginningOfArray(choloateBars, newItem){
 }
 
 function addElementToEndOfArray(choloateBars, newItem){
-  a.push(b)
-  return a
+  return [...chocolateBars, newItem];
 }
 
 function destructivelyAddElementToEndOfArray(choloateBars, newItem){
-  myArray.push(b)
+  chocolateBars.push(newItem);
+  return chocolateBars;
 }
